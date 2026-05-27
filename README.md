@@ -1,6 +1,6 @@
 # basicSqlWithPhp
 
-
+<pre>
 
 <h1 font-family:'JetBrains Mono', monospace> 
 1. you must change the database name, user and password in the "gravar.php" file, since it was pre-configured to run 
@@ -10,3 +10,4 @@ on my local server.
 
 
 </h1>
+</pre>
