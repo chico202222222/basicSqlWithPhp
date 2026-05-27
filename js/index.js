@@ -13,6 +13,17 @@ async function gravar(){
         body: dados
     });
 
+
+    if(!response.ok){
+        document.getElementById("msg").innerHTML = "Erro ao enviar os dados!";
+        return;
+    }
+    else{
+        document.getElementById("msg").innerHTML = "Dados gravados com sucesso!";
+    }
+
+
+
     const result = await response.text();
     document.getElementById("msg").innerHTML = result;
 }
